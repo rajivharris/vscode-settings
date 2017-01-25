@@ -1,0 +1,24 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // When enabled, will open files in a new window instead of reusing an existing instance.
+    "window.openFilesInNewWindow": "off",
+    "window.showFullPath": true,
+
+    "editor.fontSize": 16,
+    "editor.renderIndentGuides": true,
+
+    // Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+        "**/.vscode": true,
+        "**/.bin": true,
+        "**/.obj": true
+    },
+
+    // Controls auto save of dirty files. Accepted values:  "off", "afterDelay", "onFocusChange". If set to "afterDelay" you can configure the delay in "files.autoSaveDelay".
+    "files.autoSave": "afterDelay",
+
+    "debug.inlineValues": true,
+
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false
+}
